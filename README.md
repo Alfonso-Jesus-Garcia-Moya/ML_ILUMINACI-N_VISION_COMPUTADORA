@@ -1,4 +1,4 @@
-Tema 4. ILUMINACIÓN
+Tema 4. ILUMINACIÓN parte 1 , abajo parte 2
 4.1. Importancia de la iluminación en visión por computadora.
 
 4.2. Problemas relacionados con la iluminación.
@@ -51,3 +51,36 @@ Los resultados se visualizan mediante gráficos de dispersión 2D y 3D, donde ca
 1.  Clonar el repositorio.
 2.  Asegurar el archivo `perros.zip` del Stanford Dogs Dataset en la ruta de trabajo.
 3.  Ejecutar el *notebook* de Colab o Jupyter.
+
+
+
+# 💡 DEEP LEARNIN & ML_ILUMINACION_VISION_COMPUTADORA
+
+## 📄 Semana 10: Fundamentos de CNN, Convolución y Pooling
+
+Este repositorio contiene el código desarrollado y ejecutado para la demostración de los componentes fundamentales de las Redes Neuronales Convolucionales (CNN) y su aplicación inicial en el contexto de la visión por computadora.
+
+El enfoque principal de este notebook es la **validación conceptual** de cómo los modelos procesan datos espaciales (imágenes), desde la unidad más básica (el perceptrón) hasta las operaciones clave de una capa convolucional.
+
+### 🛠️ Contenido del Notebook
+
+El archivo `Semana_10_Con tarea.ipynb` incluye las siguientes demostraciones prácticas:
+
+1.  **Perceptrón y Separabilidad Lineal:** Implementación y entrenamiento de un perceptrón simple para resolver la compuerta lógica AND, incluyendo la visualización de la frontera de decisión.
+2.  **Convolución 2D Fundamental:** Demostración manual de la operación de convolución utilizando una imagen artificial y un kernel detector de bordes, ilustrando el proceso de generación de mapas de características.
+3.  **Pipeline de Procesamiento CNN en Imágenes Reales:** Aplicación de filtros de convolución y la operación de Max Pooling sobre imágenes del Stanford Dogs Dataset (o imágenes de ejemplo) para simular la extracción de características y la reducción de dimensionalidad espacial:
+    * Detección de Bordes (Filtro Sobel/Laplaciano).
+    * Suavizado (*Blur*).
+    * Max Pooling Iterativo (generación de una jerarquía de características abstractas).
+
+### 🎯 Objetivos de Aprendizaje
+
+* Comprender el rol de la neurona y las funciones de activación (ReLU, Sigmoide).
+* Visualizar la **invariancia traslacional** lograda mediante el compartimiento de pesos en la convolución.
+* Analizar cómo la operación de **Max Pooling** reduce la resolución mientras conserva las características dominantes, contribuyendo a la robustez del modelo.
+
+### 📦 Dependencias
+
+* numpy
+* matplotlib
+* opencv-python (cv2)
